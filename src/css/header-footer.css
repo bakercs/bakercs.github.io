@@ -1,0 +1,21 @@
+
+
+/* == footer styles == */
+footer {
+  background: #EEE;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+footer .footer-inner {
+  text-align: center;
+}
+
+footer p {
+  margin: 0px 3px;
+}
+
+footer .smaller {
+  font-size: 12px;
+  color: #AAA;
+}
