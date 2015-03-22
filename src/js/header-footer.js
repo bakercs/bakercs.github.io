@@ -5,10 +5,7 @@
 $(document).ready(function() {
 
   // get current location
-  currentLocation = location.pathname.split("/").slice(1).join("/")+"/";
-  if (currentLocation.split('')[currentLocation.length-1] == "/") {
-    currentLocation += "index.html";
-  };
+  currentLocation = location.pathname.split("/").slice(1).join("/");
 
   // add partial header, footer, and other partial stuff to the DOM
   $.each(["header", "footer"], function(ct, name) {
@@ -21,9 +18,10 @@ $(document).ready(function() {
       // update the navbar header "active" property for the navbar
       name === "header" &&
       $("#bakercs-navbar .navbar-nav li").each(function(ct, item) {
-        if ($(item).data("page") === currentLocation) {
-          $(item).addClass("active");
-        };
+        if (
+          $(item).data("page") === currentLocation ||
+          $(item).data("page").replace("index.html", "") === currentLocation
+        ) $(item).addClass("active");
       });
 
 
