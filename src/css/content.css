@@ -1,5 +1,14 @@
 
 /* == content container styles == */
 body > .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body > .container:first-child {
   margin-bottom: 80px;
+}
+
+.title-image {
+  width: 100%;
 }
