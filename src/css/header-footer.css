@@ -1,4 +1,12 @@
+/* == header styles == */
+header .navbar-default {
+  height: 96px;
+  background: transparent;
+}
 
+header .container {
+  margin-top: 16px;
+}
 
 /* == footer styles == */
 footer {
