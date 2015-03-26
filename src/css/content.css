@@ -3,6 +3,7 @@
 body > .container {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 body > .container:first-child {
@@ -11,4 +12,22 @@ body > .container:first-child {
 
 .title-image {
   width: 100%;
+}
+
+/* == home page list == */
+.home-page-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.home-page-list li {
+  padding: 4px 0px;
+}
+
+.home-page-list span.title {
+  font-weight: bold;
+}
+
+.home-page-list span.title:after {
+  content: ": ";
 }
