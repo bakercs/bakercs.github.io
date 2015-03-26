@@ -3,4 +3,12 @@
   position: absolute;
   left: 500px;
   top: 10px;
-  }
+}
+
+h1 {
+  text-align: center;
+}
+
+.media {
+  text-align: center;
+}
