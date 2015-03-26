@@ -11,4 +11,10 @@ body > .container:first-child {
 
 .title-image {
   width: 100%;
+  margin-top: 60px;
+
+}
+
+.laptop-html {
+  width: 100%;
 }
