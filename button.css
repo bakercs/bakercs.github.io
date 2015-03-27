@@ -4,11 +4,15 @@
   left: 500px;
   top: 10px;
 }
-
+/*centering for all h1 tags on the page*/
 h1 {
   text-align: center;
 }
-
+/*centering for the p tag with a class of media, in the media.html file*/
 .media {
   text-align: center;
+}
+/*spacing in between the videos*/
+.col-md-12 {
+  margin: 50px;
 }
